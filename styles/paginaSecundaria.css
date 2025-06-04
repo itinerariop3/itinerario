@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.siteProjetoMassa {
+    background-image: url('https://clickpb-wordpress.s3.amazonaws.com/wp-content/uploads/2023/12/31183650/orla_de_joao_pessoa_foto_aerea-walla_santos-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: black;
+    padding-right: 8%;
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    navbar{
+    font-family: cursive;
+    }
+    a {
+    text-decoration: none;
+    }
+    li {
+    list-style: none;
+    }
+    .navbar {
+        
+        position: relative;
+        bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background-color:#34623f;
+        color: #fff;
+        }
+        .nav-links a {
+        color:#f8fa90;
+        }
+        .logo {
+            width: 200px; 
+            height: 80px; 
+            transition: transform 0.3s ease-in-out;
+            transform: rotate(0deg);
+            
+          
+        }
+        .menu {
+        display: flex;
+        gap: 1em;
+        font-size: 18px;
+        }
+        .menu li:hover {
+        background-color: #4c9e9e;
+        border-radius: 5px;
+        transition: 0.3s ease;
+        }
+        .menu li {
+        padding: 5px 14px;
+        }
+        .services {
+        position: relative;
+        }
+        
+        .services:hover .dropdown {
+        display: block;
+        }
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section {
+    text-align: center;
+}
+
+section h3 {
+    font-size: 3em;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #34623f;
+}
+
+section p {
+    font-size: 1.5em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    background-color: #34623f;
+}
+
+input[type="radio"] {
+    transform: scale(2);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f8fa90;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
+
+.imagens {
+    height: 600px;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 500px 100px;
+    grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+    align-items: center;
+    justify-items: center;
+}
+  
+.imagens main#carousel {
+    grid-row: 1 / 2;
+    grid-column: 1 / 8;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    --items: 5;
+    --middle: 3;
+    --position: 1;
+    pointer-events: none;
+}
+  
+.imagens div.item {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    --r: calc(var(--position) - var(--offset));
+    --abs: max(calc(var(--r) * -1), var(--r));
+    transition: all 0.25s linear;
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-300px * var(--r)));
+    z-index: calc((var(--position) - var(--abs)));
+}
+  
+.imagens div.item:nth-of-type(1) {
+    --offset: 1;
+}
+.imagens div.item:nth-of-type(2) {
+    --offset: 2;
+}
+.imagens div.item:nth-of-type(3) {
+    --offset: 3;
+}
+.imagens div.item:nth-of-type(4) {
+    --offset: 4;
+}
+.imagens div.item:nth-of-type(5) {
+    --offset: 5;
+}
+  
+.imagens input:nth-of-type(1) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.imagens input:nth-of-type(1):checked ~ main#carousel {
+    --position: 1;
+}  
+.imagens input:nth-of-type(2) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+.imagens input:nth-of-type(2):checked ~ main#carousel {
+    --position: 2;
+}
+.imagens input:nth-of-type(3) {
+    grid-column: 4 /5;
+    grid-row: 2 / 3;
+}
+.imagens input:nth-of-type(3):checked ~ main#carousel {
+    --position: 3;
+}
+  
+.imagens input:nth-of-type(4) {
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+}
+
+.imagens input:nth-of-type(4):checked ~ main#carousel {
+    --position: 4;
+}
+  
+.imagens input:nth-of-type(5) {
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+}
+
+.imagens input:nth-of-type(5):checked ~ main#carousel {
+    --position: 5;
+}
+
+.imagens .item img{
+    width: 300px;
+    height: 400px;
+}
+
+footer{
+ 
+          ul {
+              margin: 0;
+              padding: 0;
+          }
+          li {
+              display: inline;
+              margin: 0;
+              padding: 0;
+          }
+          a {
+              display: inline-block;
+        height: 30px;
+              padding: 20px;
+              position: relative;
+              transition: .2s ease-in;
+              svg {
+          position: absolute;
+                  height: 30px;
+                  width: 30px;
+         
+                  path, circle {
+                      fill: teal;
+                      transition: .2s ease-in;
+                  }
+              }
+          }
+          a:hover {
+              transform: translateY(-4px);
+            }
+
+          }

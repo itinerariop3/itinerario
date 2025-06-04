@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    background-color:#F4EF88;
+}
+header{
+    background-color: #15979e;
+    padding: -1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    background-color: #00878D;
+    background: linear-gradient(#15979e,#00878D)
+}
+.imghd{
+    margin-bottom: 5px;
+}
+
+
+.locais{
+    margin-left: 65px;
+    margin-bottom: 90px;
+    padding: 10px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.botoes button{
+    color: #333;
+    padding: 10px 10px;
+    margin-right: 25px;
+    margin-top: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 15px;
+}
+.botoes button:hover{
+    transform: scale(1.1);
+}
+
+ul{
+    display: flex;
+    padding: 5px;
+    margin: 0%;
+}
+li{
+    margin-left: 20px;
+    padding-right: 40px;  
+    border: 1px solid black;
+    display: inline-block; 
+    padding: 5px 10px; 
+    text-align: center; 
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: white;
+}
+li:hover{
+    transform: scale(1.2);
+}
+ul li a{
+    text-decoration: none;
+}
+nav{
+    padding-left: 80px;
+    padding-bottom: 15px;
+    margin-left: -60px;
+}
+
+.banner{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.grid-container {
+    width: 100%;
+    display: flex;
+    grid-gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.grid-container a .item, a .item2,a .item3,a .item4,a .item5, a .item6 {
+    padding: 40px;
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid var(--border-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-container a .item {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cc/Lagoa_Jampa.jpg');
+}
+
+.grid-container a .item2 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/eb/Joao_Pessoa_Paraiba_Farol_do_Cabo_Branco2.jpg');
+}
+
+.grid-container a .item3 {
+    background-image: url('https://cdn.jornaldaparaiba.com.br/wp-content/uploads/2022/08/Cabo-Branco-Foto.jpg?xid=1033342');
+}
+
+.grid-container a .item4 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c3/Mercado_de_Artesanato_Paraibano%2C_Jo%C3%A3o_Pessoa_%28PB%29.jpg');
+}
+
+.grid-container a .item5 {
+    background-image: url('https://cdn.jornaldaparaiba.com.br/wp-content/uploads/2018/09/Jardim-Botanico_C%C3%A1cio-Murilo_MTur-e1676499071689.jpg?xid=599266');
+}
+
+.grid-container a .item6 {
+    background-image: url('https://cdn.jornaldaparaiba.com.br/wp-content/uploads/2019/08/bica-e1565028084194.jpg?xid=603780');
+}
+
+.grid-container a .item:hover, a .item2:hover, a .item3:hover, a .item4:hover, a .item5:hover, a .item6:hover {
+    transform: scale(1.2);
+    font-size: large;
+}
+
+.grid-container p {
+    text-decoration: none;
+    text-align: center;
+    color: tomato
+}
+section p {
+    font-size: 1.5em;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: center;
+}
+
+section p {
+    font-size: 1.5em;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.bannerfim{
+    width: 100%;
+    height: 700px;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+    color:white;
+    text-align: center;
+}
+.container {
+    position: relative;
+
+
+}
+/* estilo do atraves de iniciativas segundo paragrafo da pag principal */
+.container p {
+    position: relative;
+    top: 300px;
+    font-size: 18px;
+    color: white;
+    top: 445px;
+}
+
+

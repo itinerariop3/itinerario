@@ -1,0 +1,172 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.siteProjetoMassa {
+    background-image: url('imagen/fundo.png.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: black;
+    padding-right: 8%;
+}
+
+.navbar {
+    font-family: cursive;
+    }
+    a {
+    text-decoration: none;
+    }
+    li {
+    list-style: none;
+    }
+
+.navbar {
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#34623f;
+    color: #fff;
+}
+    
+.nav-links a {
+        color:#f8fa90;
+}
+
+.logo {
+    width: 200px; 
+    height: auto; 
+    transition: transform 0.3s ease-in-out;
+    transform: rotate(0deg);
+
+}
+        
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+       
+.services {
+    position: relative;
+}
+        
+        
+.services:hover .dropdown {
+    display: block;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section {
+    text-align: center;
+}
+
+section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.5em;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.destino {
+    margin-bottom: 30px;
+}
+
+.destino img {
+    max-width: 70%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f8fa90;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top: 48px;
+    width: 100%;
+}
+
+
+footer{
+ 
+            ul {
+              margin: 0;
+              padding: 0;
+          }
+          li {
+              display: inline;
+              margin: 0;
+              padding: 0;
+          }
+          a {
+              display: inline-block;
+        height: 30px;
+              padding: 20px;
+              position: relative;
+              transition: .2s ease-in;
+              svg {
+          position: absolute;
+                  height: 30px;
+                  width: 30px;
+         
+                  path, circle {
+                      fill: teal;
+                      transition: .2s ease-in;
+                  }
+              }
+          }
+a:hover {
+    transform: translateY(-4px);
+    }
+}
